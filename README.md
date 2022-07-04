@@ -93,7 +93,7 @@ Or if your database is fresh and you haven't done any work yet, then it's safe t
 php artisan migrate:refresh --seed
 ```
 
-Or if your database is fresh and you haven't done any work yet, then it's safe to call the commands in a single line:
+Get jwt secret before hit endpoint
 ```shell
 php artisan jwt:secret
 ```
